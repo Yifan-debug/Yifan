@@ -26,6 +26,7 @@
 #' @export
 
 f <- function(x){return(x+1)}
+
 yifan <- function(x){return(x^2)}
 
 
