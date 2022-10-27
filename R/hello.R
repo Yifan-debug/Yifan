@@ -21,14 +21,20 @@
 #' @details you can use this function to calculate x+1, then return the value of x+1
 #'
 #' @param x x is a number
+f <- function(x){return(x+1)}
 #'
 #' @return  a data frame
 #' @export
 #'
 #' @import stats
 #' @importFrom stats dpois
-#' @rdname poiVec
+#' @rdname f
+poiVec <- function(x){dpois(x,x)}
 #' @export poiVec
+#'
+#' @rdname f
+yifan <- function(x){return(x^3)}
+#' @export yifan
 #'
 #'
 #' @examples
@@ -36,8 +42,5 @@
 #' poiVec(5)
 #'
 
-f <- function(x){return(x+1)}
 
-
-poiVec <- function(x){dpois(x,x)}
 
