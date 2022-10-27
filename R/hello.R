@@ -28,7 +28,7 @@
 #' @import stats
 #' @importFrom stats dpois
 #' @rdname poiVec
-#' @export
+#' @export poiVec
 #'
 #'
 #' @examples
