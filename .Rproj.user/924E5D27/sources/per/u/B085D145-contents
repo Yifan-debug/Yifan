@@ -1,0 +1,6 @@
+library(roxygen2)
+roxygenize('E:/OneDrive - Auburn University/Bioinformatics/R包/yifan')
+
+
+library(devtools)
+check("yifan")

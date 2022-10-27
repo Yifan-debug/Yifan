@@ -1,0 +1,11 @@
+Package: yifan
+Type: Package
+Title: This is my first package created
+Version: 0.1.0
+Author: Yifan Wang 
+Maintainer: The package maintainer <YZW0093@auburn.edu>
+Description: Say hello to my first package
+License: GPL - 3
+Encoding: UTF-8
+LazyData: False
+RoxygenNote: 7.2.1
