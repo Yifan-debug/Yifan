@@ -14,7 +14,7 @@
 #   Test Package:              'Ctrl + Shift + T'
 
 #' This is some description of this function.
-#' @title simple functio
+#' @title simple function
 #'
 #' @description today, I create my first function, a very useful function.
 #'
@@ -22,11 +22,22 @@
 #'
 #' @param x x is a number
 #'
-#' @return  a dataframe
+#' @return  a data frame
 #' @export
+#'
+#' @import stats
+#' @importFrom stats dpois
+#' @rdname poiVec
+#' @export
+#'
+#'
+#' @examples
+#' f(1)
+#' poiVec(5)
+#'
 
 f <- function(x){return(x+1)}
 
-yifan <- function(x){return(x^2)}
 
+poiVec <- function(x){dpois(x,x)}
 

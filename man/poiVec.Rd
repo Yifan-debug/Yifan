@@ -2,7 +2,7 @@
 % Please edit documentation in R/hello.R
 \name{f}
 \alias{f}
-\title{simple functio}
+\title{simple function}
 \usage{
 f(x)
 }
@@ -10,7 +10,7 @@ f(x)
 \item{x}{x is a number}
 }
 \value{
-a dataframe
+a data frame
 }
 \description{
 today, I create my first function, a very useful function.
@@ -19,4 +19,9 @@ today, I create my first function, a very useful function.
 This is some description of this function.
 
 you can use this function to calculate x+1, then return the value of x+1
+}
+\examples{
+f(1)
+poiVec(5)
+
 }
